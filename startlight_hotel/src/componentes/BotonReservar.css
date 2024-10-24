@@ -1,0 +1,16 @@
+.contButton{
+    display: block;
+    margin-top: 1rem;
+    position: relative;
+}.bReserva{
+    background: #0E1C36;
+    color: #F9FBF2;
+    border-radius: 1rem;
+    margin-top: 1em;
+    padding: 0.6rem;
+    width: 15%;
+    border-color: #0E1C36;
+    position: fixed;
+    left: 80%;
+    top: 80%;
+}

@@ -1,0 +1,19 @@
+.sideBarContainer{
+    background: #D7F9FF;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    position: absolute;
+}
+
+.sideBarContainer ul{
+    list-style: none;
+    color: #0E1C36;
+}
+
+.sideBarContainer a:hover{
+    cursor: pointer;
+    color: #FFEDE1;
+}
