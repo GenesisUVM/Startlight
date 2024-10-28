@@ -16,10 +16,33 @@ justify-content: center;
     justify-content: center;
 }
 
-.formReserva input{
+.labelFecha{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    margin: 1rem;
+}
+
+.fecha{
+    width: 30%;
     font-size: 1rem;
     padding: 0.3rem;
-    border-radius: 1rem;
     background: #FFEDE1;
     border-style: none;
+}
+
+.inputs{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background: #FFEDE1;
+    border-style: none;
+    margin-top: 1rem;
+}
+
+.labelPersona{
+    display: flex;
+    justify-content: center;
 }
