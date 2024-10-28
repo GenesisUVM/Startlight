@@ -1,0 +1,25 @@
+
+.contReserva{
+display: flex;
+justify-content: center;
+}
+.formReserva{
+    width: 80%;
+    border-radius: 1rem;
+    background: #AFCBFF;
+    padding: 1rem;
+    position: relative;
+}
+
+.tituloForm{
+    display: flex;
+    justify-content: center;
+}
+
+.formReserva input{
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background: #FFEDE1;
+    border-style: none;
+}

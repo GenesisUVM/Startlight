@@ -1,8 +1,8 @@
 import './App.css'
 import NavBar from './componentes/NavBar'
 import Links from './componentes/Links'
-import BotonReservar from './componentes/BotonReservar'
-import InfoTuristica from './secciones/InfoTuristica'
+
+import FormReservas from './componentes/FormReserva'
 
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
     <>
       <NavBar />
       <Links />
-      <InfoTuristica />
+      <FormReservas />
       
-      <BotonReservar />
+      
     </>
   )
 }

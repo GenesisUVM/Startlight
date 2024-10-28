@@ -1,6 +1,7 @@
 import './ContTuristica.css'
 
-
+/* Componente que tiene el titulo, descripcion e imagenes del lugar turistico de la ciudad, 
+asi como el enlace a la guia turistica para que el usuario pueda descargarla */
 
 function ContTuristica( img,img1,img2){
     /*let nombre = arrayLugar[0]
