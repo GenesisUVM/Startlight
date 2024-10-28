@@ -1,0 +1,25 @@
+.contenedorInfo{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imgContainer{
+    display: flex;
+    margin: 2rem;
+}
+
+
+.enlaceGuia{
+    position: relative;
+    color: #0E1C36;
+    text-decoration: none;
+    padding: 1rem;
+    left: 60%;
+}
+
+.enlaceGuia:hover{
+    cursor: pointer;
+    color: #86adf7;
+}

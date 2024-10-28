@@ -2,7 +2,8 @@ import './App.css'
 import NavBar from './componentes/NavBar'
 import Links from './componentes/Links'
 import BotonReservar from './componentes/BotonReservar'
-import AboutUs from './secciones/About_us'
+import InfoTuristica from './secciones/InfoTuristica'
+
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <NavBar />
       <Links />
-      <AboutUs />
+      <InfoTuristica />
       
       <BotonReservar />
     </>
