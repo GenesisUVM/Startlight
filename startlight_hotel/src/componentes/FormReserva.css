@@ -4,11 +4,13 @@ display: flex;
 justify-content: center;
 }
 .formReserva{
-    width: 80%;
+    width: 50%;
     border-radius: 1rem;
     background: #AFCBFF;
-    padding: 1rem;
+    padding: 1.5rem;
     position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    top: 5rem;
 }
 
 .tituloForm{
@@ -29,20 +31,51 @@ justify-content: center;
     padding: 0.3rem;
     background: #FFEDE1;
     border-style: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.inputs{
+.inputCorreo{
     display: flex;
-    width: 40%;
+    width: 80%;
     margin: auto;
     font-size: 1rem;
     padding: 0.3rem;
     background: #FFEDE1;
     border-style: none;
     margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inputs{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background: #FFEDE1;
+    border-style: none;
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .labelPersona{
     display: flex;
     justify-content: center;
+    margin: auto;
+    width: 95%;
+}
+.formReserva select{
+    width: 80%; 
+}
+
+.botonEnviar{
+    background: #0E1C36;
+    color: #F9FBF2;
+    border-radius: 1rem;
+    margin-top: 1em;
+    padding: 0.6rem;
+    border-color: #0E1C36;
+    position: relative;
+    left: 70%;
+    font-family: 'Courier New', Courier, monospace;
 }
