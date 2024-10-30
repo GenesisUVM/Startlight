@@ -1,8 +1,7 @@
 import './App.css'
 import NavBar from './componentes/NavBar'
 import Links from './componentes/Links'
-
-import FormReservas from './componentes/FormReserva'
+import ContTuristica from './componentes/ContTuristica'
 
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
     <>
       <NavBar />
       <Links />
-      <FormReservas />
+     <ContTuristica />
       
       
     </>

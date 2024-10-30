@@ -1,38 +1,36 @@
-import React from 'react';
-import flechaA from '../img/flecha_izquierda .png'
-import flechaS from '../img/flecha_derecha.png'
+import { useState } from 'react';
+import './Slide.css'
+import imm1 from '../img/merida_centro.jpg'
+import imm2 from '../img/merida_centro1.jpg'
+import imm3 from '../img/merida_centro2.jpg'
+import imm4 from '../img/merida_centro4.jpg'
+import flecha1 from '../img/flecha_derecha.png'
+import flecha2 from '../img/flecha_izquierda .png'
 
 
 
-
-function Slide(imagenes){
-    //Variables y estados
-    const [imagennActual, setImagenActual] = React.useState(0);
-    const cantidad = imagenes.length;
-    //Verificacion de que el array no esta vacio
-    if(!Array.isArray(imagenes) || cantidad === 0)
-        return;
+const Slide = () => {
     
-    const siguienteImagen = ()=>{
-        setImagenActual(imagennActual === cantidad - 1 ? 0 : imagennActual + 1)
-    }
-        const anteriorImagen = ()=>{
-            setImagenActual(imagennActual === 0 ? cantidad - 1 : imagennActual -1)
-        
-    }
-   return(
-    <div className='contenedor'>
- <button onClick={anteriorImagen} ><img src={flechaA} alt='Flecha anterior' width={30}></img></button>
- {imagenes.map((imagen, index)=>{
-    return (<div>{imagennActual === index && (<img key={index} src={imagen} alt='imagen Carrusel' className='imagenCarrusel' ></img>
-    )}
-                </div>)
- } )}
- <button onClick={siguienteImagen} ><img src={flechaS} alt='Flecha siguiente' width={30}></img></button>
-    
-    </div>
-   )
+    const imagenes = [imm1,imm2,imm3,imm4];
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const nextSlide = () => {
+        setCurrentIndex((currentIndex + 1) % imagenes.length);
+    };
+
+    const prevSlide = () => {
+        setCurrentIndex((currentIndex - 1 + imagenes.length) % imagenes.length);
+    };
+
+    return (
+        <div className="slider">
+            <button onClick={prevSlide}><img src={flecha2} className='flechas' /></button>
+            <img src={imagenes[currentIndex]} alt="Slide" className='imgenes' />
+            <button onClick={nextSlide}><img src={flecha1} className='flechas'/></button>
+        </div>
+    );
 };
+
 
 
 export default Slide

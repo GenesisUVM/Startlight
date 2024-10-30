@@ -1,0 +1,22 @@
+.slider {
+    display: flex;
+  justify-content: center;
+  position: relative;
+  top:1rem;
+}
+
+.flechas{
+    width: 2rem;
+  
+}
+
+.imgenes {
+    width: 60%; 
+    height: auto;
+}
+
+button {
+    padding: 1rem;
+    margin: 1rem;
+    border-style: hidden;
+}
