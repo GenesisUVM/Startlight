@@ -1,15 +1,20 @@
+import { Link} from 'react-router-dom';
 import './Links.css'
+
 
 function Links(){
     return(
         <div className="sideBarContainer">
-            <ul>
-                <li><a>About Us </a></li>
-                <li><a>Informacion Turistica</a></li>
-                <li><a>Reseñas</a></li>
-                <li><a>Reservas</a></li>
-            </ul>
-        </div>
+        <ul>
+            <Link to={'/'} className='navEnlace'>About Us </Link>
+            <Link to={'/Informacion'} className='navEnlace'>Informacion Turistica</Link>
+            <Link to={'/Reseñas'} className='navEnlace'>Reseñas</Link>
+            <Link to={'/Reservas'} className='navEnlace'>Reservas</Link>
+        </ul>
+    </div>
+
+        
+       
     )
 };
 

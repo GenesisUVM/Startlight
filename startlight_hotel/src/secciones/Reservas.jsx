@@ -1,7 +1,9 @@
+import FormReservas from "../componentes/FormReserva"
 
 function Reservas(){
     return(
-        <></>
+        <>
+        <FormReservas /></>
     )
 };
 

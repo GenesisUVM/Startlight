@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './Slide.css'
 import imm1 from '../img/merida_centro.jpg'
-import imm2 from '../img/merida_centro1.jpg'
-import imm3 from '../img/merida_centro2.jpg'
-import imm4 from '../img/merida_centro4.jpg'
+import imm2 from '../img/merida_centro2.jpg'
+import imm3 from '../img/merida_centro4.jpg'
+import imm4 from '../img/merida_centro5.jpg'
 import flecha1 from '../img/flecha_derecha.png'
 import flecha2 from '../img/flecha_izquierda .png'
 

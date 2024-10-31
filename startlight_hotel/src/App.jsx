@@ -1,17 +1,21 @@
+import { Routes, Route } from "react-router-dom"
 import './App.css'
-import NavBar from './componentes/NavBar'
-import Links from './componentes/Links'
-import ContTuristica from './componentes/ContTuristica'
+import AboutUs from "./secciones/About_us";
+import InfTuristica from "./secciones/InfoTuristica";
+import Reseñas from "./secciones/Reseñas";
+import Reservas from "./secciones/Reservas";
 
 
 function App() {
 
   return (
     <>
-      <NavBar />
-      <Links />
-     <ContTuristica />
-      
+      <Routes>
+            <Route path='/' element={<AboutUs />} />
+            <Route path='/Informacion' element={<InfTuristica />} />
+            <Route path='/Reseñas' element={<Reseñas />} />
+            <Route path='/Reservas' element={<Reservas />} />
+        </Routes>     
       
     </>
   )
