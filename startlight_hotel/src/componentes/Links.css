@@ -13,11 +13,11 @@
 
 .navEnlace{
     text-decoration: none;
-    color: #0E1C36;
+    color: #86adf7;
     font-weight:600 ;
 }
 
 .navEnlace:hover{
     cursor: pointer;
-    color: #86adf7;
+    color: #0E1C36;
 }
