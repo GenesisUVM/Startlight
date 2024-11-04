@@ -23,7 +23,6 @@
 .labelFecha{
     display: flex;
     flex-direction: row;
-    justify-content:space-around ;
     margin: 1rem;
 }
 
@@ -34,6 +33,7 @@
     background: #FFEDE1;
     border-style: none;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 1.5rem;
 }
 
 .inputCorreo{
@@ -50,7 +50,7 @@
 
 .inputs{
     display: flex;
-    width: 30%;
+    width: 80%;
     margin: auto;
     font-size: 1rem;
     padding: 0.3rem;
@@ -60,11 +60,15 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.labelPersona{
+.labelPersona, .labelSuperior{
     display: flex;
     justify-content: center;
     margin: auto;
     width: 95%;
+    flex-direction: column;
+    position: relative;
+   
+
 }
 .formReserva select{
     width: 80%; 

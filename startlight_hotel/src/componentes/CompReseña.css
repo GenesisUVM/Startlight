@@ -1,0 +1,21 @@
+.containerReseña{
+    background: #F4B991;
+    position: relative;
+    top: 5rem;
+}
+
+.tituloHabitacion{
+    padding: 2rem;
+}
+.containerImgs{
+    display: flex;
+}
+.imgsHabitaciones{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.contText{
+    padding: 3rem;
+}

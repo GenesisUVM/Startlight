@@ -6,13 +6,18 @@
 }
 
 .sideBarContainer ul{
-    list-style: none;
-    color: #0E1C36;
     display: flex;
     justify-content: space-evenly;
 }
 
-.sideBarContainer a:hover{
+
+.navEnlace{
+    text-decoration: none;
+    color: #0E1C36;
+    font-weight:600 ;
+}
+
+.navEnlace:hover{
     cursor: pointer;
     color: #86adf7;
 }

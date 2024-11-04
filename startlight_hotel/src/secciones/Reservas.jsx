@@ -4,11 +4,11 @@ import NavBar from '../componentes/NavBar'
 
 function Reservas(){
     return(
-        <>
+        <div>
         <NavBar />
         <Links />
         <FormReservas />
-        </>
+        </div>
     )
 };
 

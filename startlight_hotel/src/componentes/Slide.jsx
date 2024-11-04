@@ -24,9 +24,9 @@ const Slide = () => {
 
     return (
         <div className="slider">
-            <button onClick={prevSlide}><img src={flecha2} className='flechas' /></button>
+            <button onClick={prevSlide} className='botonSlide'><img src={flecha2} className='flechas' /></button>
             <img src={imagenes[currentIndex]} alt="Slide" className='imgenes' />
-            <button onClick={nextSlide}><img src={flecha1} className='flechas'/></button>
+            <button onClick={nextSlide} className='botonSlide'><img src={flecha1} className='flechas'/></button>
         </div>
     );
 };
